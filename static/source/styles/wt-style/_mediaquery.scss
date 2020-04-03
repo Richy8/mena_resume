@@ -1,0 +1,1215 @@
+/* HEADER MEDIA QUERY STYLING */
+@media (max-width: 480px){
+    header {
+        .navbar {
+            height: 70px;
+            line-height: 35px;
+    
+            .navbar-brand {
+                img {
+                    width: 44px;
+                    height: 31px;
+                }
+            }
+        }
+        .social-links {
+           ul {
+               li {
+                   font-size: 15px;
+                   margin: 0 4px !important;
+               }
+           }
+        }
+    }
+    
+    
+    .bg-img {
+    
+        .content {
+            padding: 5px 0;
+            span {
+                font-size: 18px;
+            }
+            .i-am {
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+            .firstname {
+                font-size: 56px;
+                font-weight: 500;
+                
+            }
+            .lastname {
+                font-size: 56px;
+                margin-top: 5px;
+                font-weight: 500;
+            }
+            .role {
+                margin-top: 14px;
+                font-size: 14px;
+                letter-spacing: .07em;
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 680px){
+    header {
+        .navbar {
+            height: 70px;
+            line-height: 32px;
+    
+            .navbar-brand {
+                img {
+                    width: 48px;
+                    height: 35px;
+                }
+            }
+        }
+        .social-links {
+           ul {
+               li {
+                   font-size: 16px;
+                   margin: 0 8px !important;
+               }
+           }
+        }
+    }
+    
+    .bg-img {
+        .content {
+            padding: 5px 0;
+            span {
+                font-size: 22px;
+            }
+            .i-am {
+                font-size: 38px;
+                margin-bottom: 20px;
+            }
+            .firstname {
+                font-size: 68px;
+                font-weight: 500;
+                letter-spacing: .11em;
+            }
+            .lastname {
+                font-size: 68px;
+                margin-top: 5px;
+                font-weight: 500;
+                letter-spacing: .11em;
+            }
+            .role {
+                margin-top: 0px;
+                font-size: 14px;
+                letter-spacing: .07em;
+            }
+        }
+    }
+}
+
+@media (min-width: 681px) and (max-width: 980px){
+    header {
+        .navbar {
+            height: 80px;
+            line-height: 40px;
+    
+            .navbar-brand {
+                img {
+                    width: 48px;
+                    height: 35px;
+                }
+            }
+        }
+        .social-links {
+           ul {
+               li {
+                   font-size: 16px;
+                   margin: 0 8px !important;
+               }
+           }
+        }
+    }
+    
+    .bg-img {
+        .content {
+            padding: 5px 0;
+            span {
+                font-size: 22px;
+            }
+            .i-am {
+                font-size: 38px;
+                margin-bottom: 20px;
+            }
+            .firstname {
+                font-size: 70px;
+                font-weight: 500;
+                letter-spacing: .11em;
+            }
+            .lastname {
+                font-size: 70px;
+                margin-top: 5px;
+                font-weight: 500;
+                letter-spacing: .11em;
+            }
+            .role {
+                margin-top: 0px;
+                font-size: 15px;
+                letter-spacing: .1em;
+            }
+        }
+    
+    }
+}
+
+
+/* ABOUT MEDIA QURY STYLIHG */
+@media (max-width: 480px) {
+    .about {
+        .about-row {
+            padding: 80px 5px 30px;
+    
+            .left-section {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 60px;
+                .image-block {
+                    min-width: 200px;
+                    min-height: 280px;
+                    width: 200px;
+                    height: 280px;
+                    border: 2px solid rgb(190, 190, 6);
+                    border-radius: 0;
+                }
+            }
+            
+            .right-section {
+                .title-header {
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    &:after {
+                        width: 60px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                
+                p {
+                    font-size: 0.8125rem;
+                    line-height: 1.5rem;
+                    text-align: center;
+                }
+
+                .info {
+                    align-items: center;
+                    .website, .phone, .email {
+                        font-size: 0.8125rem;
+                    } 
+                }
+
+                .button-box {
+                    margin-top: 30px;
+                    justify-content: space-around !important;
+                    .btn-one, .btn-two {
+                        font-weight: normal !important;
+                        font-size: 11px !important;
+                        padding: 8px 25px !important;
+                        margin: 0 !important
+                    }
+                }
+            }
+        }
+    
+        .skill-set-row {
+            padding: 60px 0;
+            h6 {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 680px) {
+    .about {
+        .about-row {
+            padding: 80px 15px 30px;
+    
+            .left-section {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 60px;
+                .image-block {
+                    min-width: 200px;
+                    min-height: 280px;
+                    width: 200px;
+                    height: 280px;
+                    border: 2px solid rgb(190, 190, 6);
+                    border-radius: 0;
+                }
+            }
+            
+            .right-section {
+                .title-header {
+                    font-weight: 600;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    &:after {
+                        width: 65px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                
+                p {
+                    font-size: 14px;
+                    line-height: 25px;
+                    text-align: center;
+                }
+
+                .info {
+                    align-items: center;
+                    .website, .phone, .email {
+                        font-size: 0.875rem;
+                    } 
+                }
+
+                .button-box {
+                    margin-top: 30px;
+                    justify-content: space-around !important;
+                    .btn-one, .btn-two {
+                        font-weight: normal !important;
+                        font-size: 12px !important;
+                        padding: 10px 32px !important;
+                        margin: 0 !important
+                    }
+                }
+            }
+        }
+    
+        .skill-set-row {
+            padding: 60px 10px;
+            h6 {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 681px) and (max-width: 1200px) {
+    .about {
+        .about-row {
+            padding: 80px 20px 30px;
+    
+            .left-section {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 60px;
+                .image-block {
+                    min-width: 240px;
+                    min-height: 320px;
+                    width: 240px;
+                    height: 320px;
+                    border: 3px solid rgb(190, 190, 6);
+                    border-radius: 0;
+                }
+            }
+            
+            .right-section {
+                .title-header {
+                    font-weight: 600;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    &:after {
+                        width: 67px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                
+                p {
+                    font-size: 15px;
+                    line-height: 26px;
+                    text-align: center;
+                }
+
+                .info {
+                    align-items: center;
+                    .website, .phone, .email {
+                        font-size: 0.9187rem;
+                    } 
+                }
+
+                .button-box {
+                    margin-top: 32px;
+                    justify-content: space-around !important;
+                    .btn-one, .btn-two {
+                        font-weight: normal !important;
+                        font-size: 13px !important;
+                        padding: 10px 34px !important;
+                        margin: 0 !important
+                    }
+                }
+            }
+        }
+    
+        .skill-set-row {
+            padding: 60px 15px;
+            h6 {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .about {
+        .about-row {
+            padding: 80px 20px 30px;
+    
+            .left-section {
+                display: flex;
+                justify-content: end;
+                margin-bottom: 60px;
+                .image-block {
+                    min-width: 240px;
+                    min-height: 320px;
+                    width: 240px;
+                    height: 320px;
+                    border: 3px solid rgb(190, 190, 6);
+                    border-radius: 0;
+                }
+            }
+            
+            .right-section {
+                .title-header {
+                    font-weight: 600;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                    text-align: left;
+                    &:after {
+                        width: 67px;
+                        left: 0;
+                        transform: translateX(0%);
+                    }
+                }
+                
+                p {
+                    font-size: 15px;
+                    line-height: 26px;
+                    text-align: left;
+                }
+
+                .info {
+                    align-items: start;
+                    .website, .phone, .email {
+                        font-size: 15px;
+                    } 
+                }
+
+                .button-box {
+                    margin-top: 32px;
+                    justify-content: start !important;
+                    .btn-one, .btn-two {
+                        font-weight: normal !important;
+                        font-size: 13px !important;
+                        padding: 10px 34px !important;
+                        margin: 0 !important
+                    }
+                    .btn-one {
+                        margin-right: 30px !important;
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+
+/* PORTFOLIO SECTION MEDIA QUERY STYLING */
+@media (max-width: 420px) {
+    .portfolio-section {
+        .row {
+            padding: 60px 0 30px;
+            .title-header {
+                font-weight: 600;
+                font-size: 18px;
+                margin-bottom: 5px;
+                letter-spacing: .06em;
+                &:after {
+                    width: 68px;
+                }
+            }
+            
+            .portfolio-filters {
+                .filter {
+                    margin: 15px 5px 0;
+                    padding: 6px 15px;
+                    font-size: 10px;
+                    font-weight: 600;
+                    line-height: 20px;
+                }
+            }
+            .portfolio-container {
+                padding: 10px 0 10px;
+                .portfolio-item  {
+                    margin-bottom: 35px;
+                    .portfolio-wrap {
+                        height: 260px;
+                        .portfolio-overlay {
+                            .portfolio-info {
+                                .item-name {
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                }
+                                .item-category {
+                                    font-size: 13px;
+                                }
+                                .link-wrap {
+                                    min-width: 30px;
+                                    min-height: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            }
+            
+        }
+    
+    }
+}
+
+@media (min-width: 421px) and (max-width: 480px) {
+    .portfolio-section {
+        .row {
+            padding: 60px 0 50px;
+            .title-header {
+                font-weight: 600;
+                font-size: 20px;
+                margin-bottom: 5px;
+                letter-spacing: .06em;
+                &:after {
+                    width: 68px;
+                }
+            }
+            
+            .portfolio-filters {
+                .filter {
+                    margin: 15px 12px 0;
+                    padding: 6px 15px;
+                    font-size: 10.5px;
+                    font-weight: 700;
+                    line-height: 20px;
+                }
+            }
+            .portfolio-container {
+                padding: 10px 0 10px;
+                width: 100%;
+                .portfolio-item  {  
+                    margin: 0 auto 35px !important;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .portfolio-wrap {
+                        width: 86%;
+                        height: 260px;
+                        .portfolio-overlay {
+                            .portfolio-info {
+                                .item-name {
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                }
+                                .item-category {
+                                    font-size: 13px;
+                                }
+                                .link-wrap {
+                                    min-width: 30px;
+                                    min-height: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            }
+            
+        }
+    
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .portfolio-section {
+        .row {
+            padding: 60px 0 50px;
+            .title-header {
+                font-weight: 600;
+                font-size: 20px;
+                margin-bottom: 5px;
+                letter-spacing: .06em;
+                &:after {
+                    width: 68px;
+                }
+            }
+            
+            .portfolio-filters {
+                .filter {
+                    margin: 15px 12px 0;
+                    padding: 6px 15px;
+                    font-size: 10.5px;
+                    font-weight: 700;
+                    line-height: 20px;
+                }
+            }
+            .portfolio-container {
+                padding: 10px 0 10px;
+                .portfolio-item  {  
+                    margin: 0 auto 35px !important;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .portfolio-wrap {
+                        width: 75%;
+                        height: 275px;
+                        .portfolio-overlay {
+                            .portfolio-info {
+                                .item-name {
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                }
+                                .item-category {
+                                    font-size: 13px;
+                                }
+                                .link-wrap {
+                                    min-width: 30px;
+                                    min-height: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            }
+            
+        }
+    
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .portfolio-section {
+        .row {
+            padding: 60px 10px 50px;
+            .title-header {
+                font-weight: 600;
+                font-size: 23px;
+                margin-bottom: 5px;
+                letter-spacing: .06em;
+                &:after {
+                    width: 70px;
+                }
+            }
+            
+            .portfolio-filters {
+                .filter {
+                    margin: 15px 12px 0;
+                    padding: 6px 15.5px;
+                    font-size: 11.5px;
+                    font-weight: 700;
+                    line-height: 20px;
+                }
+            }
+            .portfolio-container {
+                padding: 10px 0 10px;
+                .portfolio-item  {  
+                    margin: 0 auto 35px !important;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .portfolio-wrap {
+                        width: 80%;
+                        height: 275px;
+                        .portfolio-overlay {
+                            .portfolio-info {
+                                .item-name {
+                                    font-size: 22px;
+                                    font-weight: 500;
+                                }
+                                .item-category {
+                                    font-size: 13.5px;
+                                }
+                                .link-wrap {
+                                    min-width: 32px;
+                                    min-height: 32px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            }
+            
+        }
+    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+    .portfolio-section {
+        .row {
+            padding: 60px 0 50px;
+            .title-header {
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 5px;
+                letter-spacing: .06em;
+                &:after {
+                    width: 70px;
+                }
+            }
+            
+            .portfolio-filters {
+                .filter {
+                    margin: 15px 12px 0;
+                    padding: 6px 16px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 20px;
+                }
+            }
+            .portfolio-container {
+                padding: 10px 0 10px;
+                .portfolio-item  {  
+                    margin: 0 0 35px !important;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .portfolio-wrap {
+                        width: 100%;
+                        height: 270px;
+                        .portfolio-overlay {
+                            .portfolio-info {
+                                .item-name {
+                                    font-size: 22px;
+                                    font-weight: 500;
+                                }
+                                .item-category {
+                                    font-size: 13.5px;
+                                }
+                                .link-wrap {
+                                    min-width: 32px;
+                                    min-height: 32px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            }
+            
+        }
+    
+    }
+}
+
+
+/* EXPERIENCE SECTION MEDIA QUERY STYLING */
+@media(max-width: 440px) {
+    .experience-section {
+        .row {
+            padding: 60px 0 60px;
+            .title-header {
+                font-weight: 600;
+                font-size: 20px;
+                letter-spacing: .08em;
+                &:after {
+                    width: 60px;
+                }
+            }
+            .experience-row {
+                padding: 10px 0 0;
+                .experience-box {
+                    margin: 0 5px;
+                    margin-bottom: 20px;
+                    
+                    .company {
+                        font-weight: 500 !important;
+                    }
+                    .position, .date, .function {
+                        font-weight: 400;
+                        font-size: 12.5px;
+                    }
+                    .function {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .paper-plane {
+            min-width: 125px;
+            min-height: 80px;
+            width: 125px;
+            height: 80px;
+            top: 10px;
+            left: 10px
+        }
+        .paper-plane-two {
+            min-width: 140px;
+            min-height: 80px;
+            width: 140px;
+            height: 80px;
+            top: 90%;
+            right: 10px;
+        }
+    }
+}
+
+@media (min-width: 441px) and (max-width: 860px) {
+    .experience-section {
+        .row {
+            padding: 60px 20px 60px;
+            .title-header {
+                font-weight: 600;
+                font-size: 22px;
+                letter-spacing: .08em;
+                &:after {
+                    width: 62px;
+                }
+            }
+            .experience-row {
+                padding: 10px 10px 0;
+                .experience-box {
+                    margin: 0 5px;
+                    margin-bottom: 20px;
+                    
+                    .company {
+                        font-weight: 500 !important;
+                    }
+                    .position, .date, .function {
+                        font-weight: 400;
+                        font-size: 13px;
+                    }
+                    .function {
+                        font-size: 0.7916rem;
+                    }
+                }
+            }
+        }
+        .paper-plane {
+            min-width: 135px;
+            min-height: 90px;
+            width: 135px;
+            height: 90px;
+            top: 20px;
+            left: 20px
+        }
+        .paper-plane-two {
+            min-width: 140px;
+            min-height: 80px;
+            width: 140px;
+            height: 80px;
+            top: 80%;
+            right: 10px;
+        }
+    }
+}
+
+@media (min-width: 861px) and (max-width: 1200px) {
+    .experience-section {
+        .row {
+            padding: 60px 10px 60px;
+            .title-header {
+                font-weight: 600;
+                font-size: 25px;
+                letter-spacing: .08em;
+                &:after {
+                    width: 65px;
+                }
+            }
+            .experience-row {
+                padding: 10px 10px 0;
+                .experience-box {
+                    margin: 0 5px;
+                    margin-bottom: 20px;
+                    
+                    .position, .date, .function {
+                        font-weight: 400;
+                        font-size: 13.5px;
+                    }
+                    .function {
+                        font-size: 0.7916rem;
+                    }
+                }
+            }
+        }
+        .paper-plane {
+            min-width: 140px;
+            min-height: 100px;
+            width: 140px;
+            height: 100px;
+            top: 40px;
+            left: 40px
+        }
+        .paper-plane-two {
+            min-width: 150px;
+            min-height: 90px;
+            width: 150px;
+            height: 90px;
+            top: 80%;
+            right: 30px;
+        }
+    }
+}
+
+
+/* CTA SECTION MEDIA QUERY STYLING */
+@media (max-width: 440px) {
+    .cta-section {
+        .row {
+            padding: 60px 10px;
+            .title-header {
+                font-weight: 700;
+                font-size: 20px;
+                word-spacing: .08em;
+                letter-spacing: .04em;
+                &:after {
+                    top: 30%;
+                    width: 80px;
+                    display: none;
+                }
+            }
+            p {
+                color: rgb(39, 39, 38) !important;
+                font-size: 0.885rem;
+            }
+            button {
+                font-size: 12px !important;
+                padding: 12px 35px !important;
+                font-weight: normal !important;
+            }
+        }
+        .fourth-addon {
+            min-width: 60px;
+            min-height: 60px;
+            width: 60px;
+            height: 60px;
+            top: 115%;
+            right: 20px;
+        }
+    }
+}
+
+@media (min-width: 441px) and (max-width: 680px) {
+    .cta-section {
+        .row {
+            padding: 60px 30px;
+            .title-header {
+                font-weight: 700;
+                font-size: 22.5px;
+                word-spacing: .08em;
+                letter-spacing: .04em;
+                &:after {
+                    top: 30%;
+                    width: 80px;
+                    display: none;
+                }
+            }
+            p {
+                color: rgb(39, 39, 38) !important;
+                font-size: 0.903rem;
+            }
+            button {
+                font-size: 13px !important;
+                padding: 14px 40px !important;
+                font-weight: normal !important;
+            }
+        }
+        .fourth-addon {
+            min-width: 60px;
+            min-height: 60px;
+            width: 60px;
+            height: 60px;
+            top: 115%;
+            right: 20px;
+        }
+    }
+}
+
+@media (min-width: 681px) and (max-width: 1100px) {
+    .cta-section {
+        .row {
+            padding: 60px 50px;
+            .title-header {
+                font-weight: 700;
+                font-size: 23px;
+                word-spacing: .08em;
+                letter-spacing: .04em;
+                &:after {
+                    top: 30%;
+                    width: 80px;
+                    display: none;
+                }
+            }
+            p {
+                color: rgb(39, 39, 38) !important;
+                font-size: 0.9044rem;
+            }
+            button {
+                font-size: 13px !important;
+                padding: 14px 48px !important;
+                font-weight: 400 !important;
+            }
+        }
+        .fourth-addon {
+            min-width: 80px;
+            min-height: 80px;
+            width: 80px;
+            height: 80px;
+            top: 115%;
+            right: 20px;
+        }
+    }
+}
+
+
+/* CONTACT SECTION MEDIA QUERY STYLING */
+@media (max-width: 480px) {
+    .contact {
+        .row {
+            padding: 60px 35px 5px;
+            .title-header {
+                font-weight: 600;
+                font-size: 20px;
+                letter-spacing: .07em;
+                &:after {
+                    width: 60px;
+                }
+            }
+        }
+    
+        .contact-row {
+            padding: 10px 10px 60px;
+            .contact-info-block {
+                h6 {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+                .address, .email, .phone, .website {
+                    font-size: 0.8033rem !important;
+                }
+
+                .social-link {
+                    margin-top: 30px;
+                }
+            }
+    
+            .contact-form-block {
+                button {
+                    font-size: 10px !important;
+                    font-weight: 600 !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .contact {
+        .row {
+            padding: 60px 40px 5px;
+            .title-header {
+                font-weight: 600;
+                font-size: 23px;
+                letter-spacing: .07em;
+                &:after {
+                    width: 63px;
+                }
+            }
+        }
+    
+        .contact-row {
+            padding: 10px 20px 60px;
+            .contact-info-block {
+                h6 {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+                .address, .email, .phone, .website {
+                    font-size: 0.8339rem !important;
+                }
+
+                .social-link {
+                    margin-top: 30px;
+                }
+            }
+    
+            .contact-form-block {
+                button {
+                    font-size: 10px !important;
+                    font-weight: 600 !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+    .contact {
+        .row {
+            padding: 60px 20px 5px;
+            .title-header {
+                font-weight: 600;
+                font-size: 23px;
+                letter-spacing: .07em;
+                &:after {
+                    width: 63px;
+                }
+            }
+        }
+    
+        .contact-row {
+            padding: 10px 10px 60px;
+            .contact-info-block {
+                h6 {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+                .address, .email, .phone, .website {
+                    font-size: 0.8339rem !important;
+                }
+
+                .social-link {
+                    margin-top: 30px;
+                }
+            }
+    
+            .contact-form-block {
+                button {
+                    font-size: 10px !important;
+                    font-weight: 600 !important;
+                }
+            }
+        }
+    }
+}
+
+
+/* FOOTER MEDIA QUERY STYLING */
+@media (max-width: 480px) {
+    .footer {
+        .footer-row {
+            padding: 60px 0 5px;
+    
+            .brand-logo {
+                min-width: 90px;
+                min-height: 55px;
+                width: 90px;
+                height: 55px;
+            }
+    
+            .thank-you {
+                padding: 20px 10px 0;
+                p {
+                    line-height: 2em;
+                    font-size: 12.7208px;
+                }
+            }
+    
+            .social-links {
+                margin-top: 20px;
+                ul {
+                    li {
+                        a {
+                            min-width: 40px;
+                            min-height: 40px;
+                            width: 40px;
+                            height: 40px;
+                            i {
+                                font-size: 0.7895rem;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+        .footer-copyright {
+            .row {
+                .col-12 {
+                    font-size: 0.7788rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 840px) {
+    .footer {
+        .footer-row {
+            padding: 60px 20px 5px;
+    
+            .brand-logo {
+                min-width: 90px;
+                min-height: 55px;
+                width: 90px;
+                height: 55px;
+            }
+    
+            .thank-you {
+                padding: 20px 20px 0;
+                p {
+                    line-height: 2em;
+                    font-size: 0.8214rem;
+                }
+            }
+    
+            .social-links {
+                margin-top: 20px;
+                ul {
+                    li {
+                        a {
+                            min-width: 45px;
+                            min-height: 45px;
+                            width: 45px;
+                            height: 45px;
+                            i {
+                                font-size: 0.802rem;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+        .footer-copyright {
+            .row {
+                .col-12 {
+                    font-size: 0.7975rem !important;
+                }
+            }
+        }
+    }
+}
+
+
+/* MODAL MEDIS QUERY STYLING */
+@media (max-width: 650px) {
+    .modal {
+        .modal-body {
+            i {
+                font-size: 1.0625rem;
+            }
+            span {
+                line-height: 1.625rem;
+                font-size: 0.8525rem;
+            }
+            
+        }
+    }
+    
+}
